@@ -1,0 +1,17 @@
+.frosted{
+	background: rgba(255,255,255,0.7) !important;
+	& .collection-item, .collapsible-header{
+		background: transparent;
+	}
+	&.green{
+		background: rgba(50,105,30,0.7) !important;
+	}
+}
+
+fieldset{
+	border: none !important;
+}
+
+.collapsible-header{
+	line-height: 2.5em;
+}

@@ -1,0 +1,89 @@
+
+
+.editPane .input-field {
+	input, label{
+		color: $input-color !important;
+	}
+}
+.row-iterated{
+	.row, >.input-field{
+		margin-bottom:0px !important;
+	}
+}
+
+  /* label color */
+   .input-field label {
+     color: $input-color;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: $input-color;
+   }
+   /* label underline focus color */
+   // .input-field input[type=text]:focus {
+   //   border-bottom: 1px solid $input-color;
+   //   box-shadow: 0 1px 0 0 $input-color;
+   // }
+   /* valid color */
+   .input-field input[type=text].valid,
+  .input-field input[type=password].valid {
+     border-bottom: 1px solid $success-color;
+     box-shadow: 0 1px 0 0 $success-color;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid,
+   .input-field input[type=password].invalid {
+     border-bottom: 1px solid $error-color;
+     box-shadow: 0 1px 0 0 $error-color;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: $input-color;
+   }
+   .browser-default{
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $primary-color;
+    outline: none;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    display: block;
+
+   }
+   .input-field .prefix ~ .browser-default{
+    margin-left: 3rem;
+    width: 92%;
+    width: calc(100% - 3rem);
+   }
+
+// Switch
+  .switch label input[type=checkbox]:checked + .lever {
+    background-color: $secondary-color;
+    &:after{
+      background-color: $primary-color;
+    }
+}
+.readable{
+  input,
+  select{
+  color: $secondary-color !important;
+  border-bottom: none !important;
+  }
+
+}
+
+  .requestStatus .select-wrapper input.select-dropdown{
+    // font-weight:  bolder !important;
+    text-align: center;
+    font-size: 1.4em;
+    text-transform: uppercase;
+  }
+input[type=url]:not(.browser-default){
+  margin:  0 0 7px 0;
+}

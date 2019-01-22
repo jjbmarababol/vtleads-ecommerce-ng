@@ -1,0 +1,50 @@
+/*NAV ENTITIES*/
+nav, .title-pane, footer{
+	    text-transform: uppercase;
+	   @include letterspace(0.3em);
+	   color: #000;
+	    .title{
+	    	margin-top: 10px;
+	    }
+	    .sub-caption{
+	        margin:{
+		        top: -30px;
+		        bottom: -10px;
+	        }
+	    }
+	    .brand-logo{
+			font-size: unset;
+			// margin-left: 1em;
+		}	
+		.dropdown-content li > a,
+		.dropdown-content li > span{
+			text-transform: none;
+			letter-spacing: normal;
+		}
+}
+.title-row{
+	margin-bottom: 0px;	
+	margin-top: -28px;
+}
+/*END FOR NAV ENTITIES*/
+.nav-wrapper, .sidenav{
+	background-color: rgba(227,226,242,0.5) !important;
+}
+
+/*SIDE NAV*/
+.side-nav{
+	.user-view .background{
+		/* filter: grayscale(100%);*/
+	}
+// 	 .collapsible-body > ul:not(.collapsible){
+// 	 	&> li{
+// 	 		&.active{
+// 	 	    	background-color: $accent-color !important;
+// 	 	    	 a {
+// 		 	   		color: #424242 !important;
+// 		 	    }
+// 	 	    }
+// 	 	}
+}
+
+/*END FOR SIDE NAV*/

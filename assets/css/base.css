@@ -1,0 +1,944 @@
+/* line 3, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_colors.scss */
+.kashmir-text {
+  color: #614385 !important;
+}
+
+/* line 7, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_colors.scss */
+.kashmir-bg {
+  background-color: #614385 !important;
+}
+
+/*GLOBAL DEFAULT INITIALIZATIONS*/
+/* line 8, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+body {
+  margin: 0;
+}
+
+/* line 11, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.right {
+  float: right;
+}
+
+/* line 12, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.left {
+  float: left;
+}
+
+/* line 13, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.bold {
+  font-weight: bolder;
+}
+
+/* line 14, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.block {
+  width: 100%;
+}
+
+/* line 15, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*END FOR GLOBAL DEFAULT INITIALIZATIONS*/
+/* line 18, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* line 23, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 27, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.bg, .sample-bg, #particles-js {
+  /* Full height */
+  height: 100%;
+  /*Position*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 40, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.sample-bg {
+  z-index: -999 !important;
+}
+
+/* line 48, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.floating {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* line 53, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.container {
+  margin: 0 auto !important;
+}
+
+/* line 56, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.page-title-icons {
+  margin-top: -25px;
+}
+
+/* line 60, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.background-setup {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+/* line 73, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.background-setup.content {
+  background-color: #e5e8e4ad !important;
+}
+
+/* line 81, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.title-row.row {
+  margin-top: 2em;
+}
+
+/* line 84, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+.leadprofile {
+  font-size: 9.5em !important;
+}
+
+/* line 86, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+#sidenav-overlay {
+  z-index: -1 !important;
+  background: transparent;
+}
+
+/* line 96, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_base.scss */
+body {
+  position: fixed;
+}
+
+/* line 2, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_button.scss */
+.btn-block {
+  width: 100%;
+}
+
+/* line 5, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_button.scss */
+.btn-flat:hover {
+  background-color: #FFFFFF;
+}
+
+/* line 9, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_button.scss */
+.switch {
+  position: relative;
+  top: 13px;
+}
+
+/* line 13, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_button.scss */
+.info-row:hover {
+  cursor: pointer;
+  background-color: #614385 !important;
+  color: #FFF;
+}
+
+/* line 1, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_figures.scss */
+.frosted {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* line 3, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_figures.scss */
+.frosted .collection-item, .frosted .collapsible-header {
+  background: transparent;
+}
+
+/* line 6, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_figures.scss */
+.frosted.green {
+  background: rgba(50, 105, 30, 0.7) !important;
+}
+
+/* line 11, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_figures.scss */
+fieldset {
+  border: none !important;
+}
+
+/* line 15, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_figures.scss */
+.collapsible-header {
+  line-height: 2.5em;
+}
+
+/*NAV ENTITIES*/
+/* line 2, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+nav, .title-pane, footer {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #000;
+}
+
+/* line 6, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+nav .title, .title-pane .title, footer .title {
+  margin-top: 10px;
+}
+
+/* line 9, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+nav .sub-caption, .title-pane .sub-caption, footer .sub-caption {
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+/* line 15, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+nav .brand-logo, .title-pane .brand-logo, footer .brand-logo {
+  font-size: unset;
+}
+
+/* line 19, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+nav .dropdown-content li > a,
+nav .dropdown-content li > span, .title-pane .dropdown-content li > a,
+.title-pane .dropdown-content li > span, footer .dropdown-content li > a,
+footer .dropdown-content li > span {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* line 25, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+.title-row {
+  margin-bottom: 0px;
+  margin-top: -28px;
+}
+
+/*END FOR NAV ENTITIES*/
+/* line 30, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+.nav-wrapper, .sidenav {
+  background-color: rgba(227, 226, 242, 0.5) !important;
+}
+
+/*SIDE NAV*/
+/* line 36, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_nav.scss */
+.side-nav .user-view .background {
+  /* filter: grayscale(100%);*/
+}
+
+/*END FOR SIDE NAV*/
+/* line 4, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.editPane .input-field input, .editPane .input-field label {
+  color: #616161 !important !important;
+}
+
+/* line 9, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.row-iterated .row, .row-iterated > .input-field {
+  margin-bottom: 0px !important;
+}
+
+/* label color */
+/* line 15, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.input-field label {
+  color: #616161 !important;
+}
+
+/* label focus color */
+/* line 19, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.input-field input[type=text]:focus + label {
+  color: #616161 !important;
+}
+
+/* label underline focus color */
+/* valid color */
+/* line 28, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.input-field input[type=text].valid,
+.input-field input[type=password].valid {
+  border-bottom: 1px solid #4db6ac !important;
+  box-shadow: 0 1px 0 0 #4db6ac !important;
+}
+
+/* invalid color */
+/* line 34, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.input-field input[type=text].invalid,
+.input-field input[type=password].invalid {
+  border-bottom: 1px solid #e57373 !important;
+  box-shadow: 0 1px 0 0 #e57373 !important;
+}
+
+/* icon prefix focus color */
+/* line 40, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.input-field .prefix.active {
+  color: #616161 !important;
+}
+
+/* line 43, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.browser-default {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #614385 !important;
+  outline: none;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+  display: block;
+}
+
+/* line 59, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.input-field .prefix ~ .browser-default {
+  margin-left: 3rem;
+  width: 92%;
+  width: calc(100% - 3rem);
+}
+
+/* line 66, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #424242;
+}
+
+/* line 68, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #614385 !important;
+}
+
+/* line 73, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.readable input,
+.readable select {
+  color: #424242 !important;
+  border-bottom: none !important;
+}
+
+/* line 81, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+.requestStatus .select-wrapper input.select-dropdown {
+  text-align: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/* line 87, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_input.scss */
+input[type=url]:not(.browser-default) {
+  margin: 0 0 7px 0;
+}
+
+/* line 1, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_collections.scss */
+.secondary-content {
+  color: #614385 !important !important;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 2, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+  table.responsive-table th {
+    width: 100% !important;
+    text-align: left;
+  }
+}
+
+/* line 14, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.dataTables_wrapper .select-wrapper {
+  width: 50% !important;
+}
+
+/* line 19, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.tabs {
+  height: 5em;
+}
+
+/* line 21, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.tabs .indicator {
+  height: 0.2em;
+}
+
+/* line 26, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.tabs .tab {
+  height: 5em;
+}
+
+/* line 28, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.tabs .tab a {
+  color: rgba(36, 59, 85, 0.8) !important;
+}
+
+/* line 30, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.tabs .tab a:hover {
+  color: #FFFFFF !important;
+  background-color: #614385 !important;
+}
+
+/* line 34, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.tabs .tab a.active:hover {
+  color: #FFFFFF !important;
+}
+
+/* line 42, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_table.scss */
+.pagination li a {
+  font-size: 0.9rem !important;
+}
+
+/*DECLARATIONS*/
+@font-face {
+  font-family: 'centurygothic';
+  src: url("../fonts/centurygothic.ttf");
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/material-icons.woff2") format("woff2");
+}
+
+/*END DECLARATIONS*/
+/* line 16, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+* {
+  font-family: "centurygothic" !important;
+}
+
+/* line 27, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.material-icons {
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-family: 'Material Icons' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 41, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.letterspaced {
+  letter-spacing: 0.03em;
+}
+
+/* line 43, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.letterspaced.large {
+  letter-spacing: 0.6em;
+}
+
+/* line 46, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.letterspaced.medium {
+  letter-spacing: 0.5em;
+}
+
+/* line 51, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.justify {
+  text-align: justify !important;
+}
+
+/* line 55, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.subdescription {
+  line-height: 1em;
+  letter-spacing: 0.1em;
+}
+
+/* line 58, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.subdescription p {
+  font-size: 0.4em;
+}
+
+/* line 62, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_typography.scss */
+.date-desc {
+  text-align: right !important;
+  letter-spacing: 0.03em;
+  font-size: 0.9em;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/* line 2, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.sel {
+  background: #00467F;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A5CC82, #00467F);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 7, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.moss {
+  background: #134E5E;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 12, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.meridian {
+  background: #283c86;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 17, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.kyemeh {
+  background: #8360c3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2ebf91, #8360c3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 22, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.selenium {
+  background: #3C3B3F;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 27, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.royal {
+  background: #141E30;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 32, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.netflix {
+  background: #8E0E00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 38, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.namn {
+  background: #C04848;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #480048, #C04848);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #480048, #C04848);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 44, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.kashmir, .background-setup.login, .pagination li.active, .tabs .indicator {
+  background: #614385;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #516395, #614385);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #516395, #614385);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* line 54, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-blue-teal {
+  background: #b3e5fc;
+  background: -webkit-linear-gradient(45deg, #b3e5fc 0%, #64ffda 100%);
+  background: linear-gradient(45deg, #b3e5fc 0%, #64ffda 100%);
+}
+
+/* line 58, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-blue-teal.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(100, 255, 218, 0.5);
+}
+
+/* line 63, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-light-blue {
+  background: #c5cae9;
+  background: -webkit-linear-gradient(45deg, #c5cae9 0%, #b3e5fc 100%);
+  background: linear-gradient(45deg, #c5cae9 0%, #b3e5fc 100%);
+}
+
+/* line 67, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-light-blue.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(179, 229, 252, 0.5);
+}
+
+/* line 72, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-blue-indigo {
+  background: #b3e5fc;
+  background: -webkit-linear-gradient(45deg, #b3e5fc 0%, #9fa8da 100%);
+  background: linear-gradient(45deg, #b3e5fc 0%, #9fa8da 100%);
+}
+
+/* line 76, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-blue-indigo.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(159, 168, 218, 0.5);
+}
+
+/* line 81, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-yellow-green {
+  background: #ffff8d;
+  background: -webkit-linear-gradient(45deg, #ffff8d 0%, #B9F6CA 100%);
+  background: linear-gradient(45deg, #ffff8d 0%, #B9F6CA 100%);
+}
+
+/* line 85, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-yellow-green.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(185, 246, 202, 0.5);
+}
+
+/* line 90, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-orange-deep-orange {
+  background: #ffe0b2;
+  background: -webkit-linear-gradient(45deg, #ffe0b2 0%, #ffccbc 100%);
+  background: linear-gradient(45deg, #ffe0b2 0%, #ffccbc 100%);
+}
+
+/* line 94, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-orange-deep-orange.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 204, 188, 0.5);
+}
+
+/* line 99, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-deep-purple-purple {
+  background: #d1c4e9;
+  background: -webkit-linear-gradient(45deg, #d1c4e9 0%, #f3e5f5 100%);
+  background: linear-gradient(45deg, #d1c4e9 0%, #f3e5f5 100%);
+}
+
+/* line 103, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-deep-purple-purple.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(243, 229, 245, 0.5);
+}
+
+/* line 108, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-red-pink {
+  background: #FF5252;
+  background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+  background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+}
+
+/* line 112, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-red-pink.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5);
+}
+
+/* line 117, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-green-amber {
+  background: #c5e1a5;
+  background: -webkit-linear-gradient(45deg, #c5e1a5 0%, #fff8e1 100%);
+  background: linear-gradient(45deg, #c5e1a5 0%, #fff8e1 100%);
+}
+
+/* line 121, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-green-amber.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 248, 225, 0.5);
+}
+
+/* line 126, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-amber-amber {
+  background: #ff6f00;
+  background: -webkit-linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+  background: linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+}
+
+/* line 130, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-amber-amber.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 111, 0, 0.3);
+}
+
+/* line 135, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-pink {
+  background: #ea80fc;
+  background: -webkit-linear-gradient(45deg, #ea80fc 0%, #fce4ec 100%);
+  background: linear-gradient(45deg, #ea80fc 0%, #fce4ec 100%);
+}
+
+/* line 139, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-pink.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(252, 228, 236, 0.5);
+}
+
+/* line 144, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-light-blue {
+  background: #3949ab;
+  background: -webkit-linear-gradient(45deg, #3949ab 0%, #4fc3f7 100%);
+  background: linear-gradient(45deg, #3949ab 0%, #4fc3f7 100%);
+}
+
+/* line 148, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-light-blue.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(79, 195, 247, 0.5);
+}
+
+/* line 153, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-teal-cyan {
+  background: #e0f2f1;
+  background: -webkit-linear-gradient(45deg, #e0f2f1 0%, #00e5ff 100%);
+  background: linear-gradient(45deg, #e0f2f1 0%, #00e5ff 100%);
+}
+
+/* line 157, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-teal-cyan.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(0, 229, 255, 0.5);
+}
+
+/* line 162, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-blue-grey-blue-grey {
+  background: #cfd8dc;
+  background: -webkit-linear-gradient(45deg, #cfd8dc 0%, #546e7a 100%);
+  background: linear-gradient(45deg, #cfd8dc 0%, #546e7a 100%);
+}
+
+/* line 166, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-blue-grey-blue-grey.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(84, 110, 122, 0.5);
+}
+
+/* line 171, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-cyan-light-green {
+  background: #0097a7;
+  background: -webkit-linear-gradient(45deg, #0097a7 0%, #b2ff59 100%);
+  background: linear-gradient(45deg, #0097a7 0%, #b2ff59 100%);
+}
+
+/* line 175, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-cyan-light-green.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(178, 255, 89, 0.5);
+}
+
+/* line 180, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-orange-amber {
+  background: #e65100;
+  background: -webkit-linear-gradient(45deg, #e65100 0%, #ffa000 100%);
+  background: linear-gradient(45deg, #e65100 0%, #ffa000 100%);
+}
+
+/* line 184, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-orange-amber.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(25, 118, 210, 0.5);
+}
+
+/* line 189, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-blue {
+  background: #303f9f;
+  background: -webkit-linear-gradient(45deg, #303f9f 0%, #1976D2 100%);
+  background: linear-gradient(45deg, #303f9f 0%, #1976D2 100%);
+}
+
+/* line 193, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-blue.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(25, 118, 210, 0.5);
+}
+
+/* line 198, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-brown-brown {
+  background: #6d4c41;
+  background: -webkit-linear-gradient(45deg, #6d4c41 0%, #d7ccc8 100%);
+  background: linear-gradient(45deg, #6d4c41 0%, #d7ccc8 100%);
+}
+
+/* line 202, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-brown-brown.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(187, 222, 251, 0.5);
+}
+
+/* line 207, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-blue-grey-blue {
+  background: #263238;
+  background: -webkit-linear-gradient(45deg, #263238 0%, #2979FF 100%);
+  background: linear-gradient(45deg, #263238 0%, #2979FF 100%);
+}
+
+/* line 211, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-blue-grey-blue.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(41, 121, 255, 0.5);
+}
+
+/* line 216, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-deep-orange {
+  background: #8e24aa;
+  background: -webkit-linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%);
+  background: linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%);
+}
+
+/* line 220, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-deep-orange.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 110, 64, 0.5);
+}
+
+/* line 225, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-green-teal {
+  background: #43A047;
+  background: -webkit-linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
+  background: linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
+}
+
+/* line 229, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-green-teal.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(77, 182, 172, 0.5);
+}
+
+/* line 234, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-light-blue {
+  background: #e040fb;
+  background: -webkit-linear-gradient(45deg, #e040fb 0%, #4fc3f7 100%);
+  background: linear-gradient(45deg, #e040fb 0%, #4fc3f7 100%);
+}
+
+/* line 238, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-light-blue.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(79, 195, 247, 0.5);
+}
+
+/* line 243, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-cyan-cyan {
+  background: #18ffff;
+  background: -webkit-linear-gradient(45deg, #18ffff 0%, #00e5ff 100%);
+  background: linear-gradient(45deg, #18ffff 0%, #00e5ff 100%);
+}
+
+/* line 247, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-cyan-cyan.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(0, 229, 255, 0.5);
+}
+
+/* line 252, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-yellow-teal {
+  background: #fff9c4;
+  background: -webkit-linear-gradient(45deg, #fff9c4 0%, #64ffda 100%);
+  background: linear-gradient(45deg, #fff9c4 0%, #64ffda 100%);
+}
+
+/* line 256, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-yellow-teal.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(100, 255, 218, 0.5);
+}
+
+/* line 261, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-deep-purple {
+  background: #7b1fa2;
+  background: -webkit-linear-gradient(45deg, #7b1fa2 0%, #7c4dff 100%);
+  background: linear-gradient(45deg, #7b1fa2 0%, #7c4dff 100%);
+}
+
+/* line 265, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-deep-purple.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(124, 77, 255, 0.5);
+}
+
+/* line 270, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-cyan-light-green {
+  background: #00e5ff;
+  background: -webkit-linear-gradient(45deg, #00e5ff 0%, #ccff90 100%);
+  background: linear-gradient(45deg, #00e5ff 0%, #ccff90 100%);
+}
+
+/* line 274, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-cyan-light-green.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(204, 255, 144, 0.5);
+}
+
+/* line 279, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-amber {
+  background: #d500f9;
+  background: -webkit-linear-gradient(45deg, #d500f9 0%, #ffa000 100%);
+  background: linear-gradient(45deg, #d500f9 0%, #ffa000 100%);
+}
+
+/* line 283, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-purple-amber.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 160, 0, 0.5);
+}
+
+/* line 288, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-purple {
+  background: #303f9f;
+  background: -webkit-linear-gradient(45deg, #303f9f 0%, #7b1fa2 100%);
+  background: linear-gradient(45deg, #303f9f 0%, #7b1fa2 100%);
+}
+
+/* line 292, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-indigo-purple.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(123, 31, 162, 0.5);
+}
+
+/* line 297, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-deep-purple-blue {
+  background: #6200ea;
+  background: -webkit-linear-gradient(45deg, #6200ea 0%, #1976D2 100%);
+  background: linear-gradient(45deg, #6200ea 0%, #1976D2 100%);
+}
+
+/* line 301, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-deep-purple-blue.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(25, 118, 210, 0.5);
+}
+
+/* line 306, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-deep-orange-orange {
+  background: #bf360c;
+  background: -webkit-linear-gradient(45deg, #bf360c 0%, #f57c00 100%);
+  background: linear-gradient(45deg, #bf360c 0%, #f57c00 100%);
+}
+
+/* line 310, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-deep-orange-orange.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(245, 124, 0, 0.5);
+}
+
+/* line 315, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-blue-cyan {
+  background: #0288d1;
+  background: -webkit-linear-gradient(45deg, #0288d1 0%, #26c6da 100%);
+  background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);
+}
+
+/* line 319, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-light-blue-cyan.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5);
+}
+
+/* line 324, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-blue-indigo {
+  background: #2962FF;
+  background: -webkit-linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
+  background: linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
+}
+
+/* line 328, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-blue-indigo.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(57, 73, 171, 0.5);
+}
+
+/* line 333, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-semi-dark {
+  background: #00AEFF;
+  background: -webkit-linear-gradient(180deg, #00AEFF 0%, #3369E6 100%);
+  background: linear-gradient(-90deg, #00AEFF 0%, #3369E6 100%);
+}
+
+/* line 337, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_gradients.scss */
+.gradient-45deg-semi-dark.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(51, 105, 230, 0.5);
+}
+
+/* line 2, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_scrollbar.scss */
+::ng-deep .scroll-bar {
+  background-color: #000 !important;
+  border-radius: 4px;
+}
+
+/* line 7, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_scrollbar.scss */
+::ng-deep .scroll-thumbs {
+  background-color: rgba(161, 27, 27, 0.4) !important;
+}
+
+/* line 9, C:/Users/jjbmarababol/Projects/VTLeads/vtleads-app/VTLeadsApp/src/assets/scss/partials/_scrollbar.scss */
+::ng-deep .scroll-thumbs:hover, ::ng-deep .scroll-thumbs:active {
+  background-color: rgba(161, 27, 27, 0.7) !important;
+}
+
+/*# sourceMappingURL=../css/base.map */

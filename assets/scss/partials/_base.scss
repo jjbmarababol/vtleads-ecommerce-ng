@@ -1,0 +1,98 @@
+/*GLOBAL DEFAULT INITIALIZATIONS*/
+	@mixin no-margin{
+		margin: 0;
+	}
+	@mixin float{
+
+	}
+	body{
+		@include no-margin;
+	}
+	.right{ float: right; }
+	.left{ float: left; }
+	.bold{ font-weight: bolder;}
+	.block{ width: 100%;}
+	.uppercase{ text-transform: uppercase;}
+/*END FOR GLOBAL DEFAULT INITIALIZATIONS*/
+
+canvas{ display: block;
+	vertical-align: bottom;
+} 
+
+
+body, html {
+    height: 100%;
+}
+
+.bg{ 
+    /* Full height */
+    height: 100%; 
+    /*Position*/
+    position:fixed;
+    top: 0;
+    left: 0;
+	width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sample-bg{
+	@extend .bg;
+	z-index: -999 !important;
+}
+#particles-js{
+	@extend .bg;
+	// z-index: -1 !important;
+}
+.floating{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.container{
+	    margin: 0 auto !important;
+}
+.page-title-icons{
+	margin-top: -25px;
+}
+
+.background-setup{
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    
+
+	&.login{
+		@extend .kashmir;
+		// background-color: #e5e8e4ad  !important;
+		// background-image: url('../img/background/minimalism.jpg');
+	}
+	&.content{
+		// background-image: url('../img/background/apple.jpg');
+		background-color: #e5e8e4ad  !important;
+
+	}
+}
+
+
+.title-row.row{
+	margin-top: 2em;
+}
+.leadprofile{font-size:9.5em !important;}
+
+#sidenav-overlay{
+	// display: none !important;
+	z-index: -1 !important;
+	background: transparent;
+}
+
+.page-footer{
+	    // margin-bottom: 4.5em;
+}
+
+body{
+	position: fixed;
+}

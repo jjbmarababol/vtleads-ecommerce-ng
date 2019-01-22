@@ -1,0 +1,44 @@
+@media only screen and (max-width: 992px){
+	table.responsive-table th {
+	     width: 100% !important;
+	     text-align: left;
+	}
+}
+.pagination{
+	li.active{
+	@extend .kashmir;
+	}
+}
+
+.dataTables_wrapper{
+	.select-wrapper {
+		width:  50% !important;
+	}
+}
+
+.tabs{
+	height: 5em;
+	.indicator{
+		@extend .kashmir;
+		height: 0.2em;
+	}
+	
+	.tab{
+		height: 5em;
+		& a{
+			color: $primary-trans !important;
+			&:hover{
+				color: $accent-color !important;
+				background-color: $primary-color;
+			}
+			&.active:hover{
+			color: $accent-color !important;
+			}
+		}
+	}
+
+}
+
+.pagination li a{
+	font-size: 0.9rem !important;
+}
